@@ -65,12 +65,12 @@ namespace Questão2
                 topo = topo.Prox;
                 return elemento;
             }
-
-            /*Main*/
             public bool VrfVazia()
             {
                 return topo == null;
             }
+
+            /*Main*/
             static void Main(string[] args)
             {
                 string linha;
